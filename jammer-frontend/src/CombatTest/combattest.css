@@ -1,0 +1,26 @@
+.CombatantDisplay {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .CombatantDisplay::before {
+    content: "";
+  }
+  
+  .CombatantDisplay::after {
+    content: "";
+  }
+  
+  .CombatantCard {
+    display: flex;
+    border-radius: 25px;
+  }
+  
+  .CombatantCard img{
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      border-radius: 25px;
+  };
+  
